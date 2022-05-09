@@ -28,32 +28,32 @@
     End Sub
 
     Private Sub BunifuLabel1_Click(sender As Object, e As EventArgs) Handles BunifuLabel1.Click
-        MenuReportedePedidos.Show()
+        ReportePedidos.Show()
         Me.Close()
     End Sub
 
     Private Sub BunifuIconButton1_Click(sender As Object, e As EventArgs) Handles BunifuIconButton1.Click
-        MenuReportedePedidos.Show()
+        ReportePedidos.Show()
         Me.Close()
     End Sub
 
     Private Sub BunifuPanel1_Click(sender As Object, e As EventArgs) Handles BunifuPanel1.Click
-        MenuReportedePedidos.Show()
+        ReportePedidos.Show()
         Me.Close()
     End Sub
 
     Private Sub BunifuIconButton5_Click(sender As Object, e As EventArgs) Handles BunifuIconButton5.Click
-        MenuRegistroProveedores.Show()
+        RegistroProveedores.Show()
         Me.Close()
     End Sub
 
     Private Sub BunifuLabel3_Click(sender As Object, e As EventArgs) Handles BunifuLabel3.Click
-        MenuRegistroProveedores.Show()
+        RegistroProveedores.Show()
         Me.Close()
     End Sub
 
     Private Sub BunifuPanel4_Click(sender As Object, e As EventArgs) Handles BunifuPanel4.Click
-        MenuRegistroProveedores.Show()
+        RegistroProveedores.Show()
         Me.Close()
     End Sub
 End Class

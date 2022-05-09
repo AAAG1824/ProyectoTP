@@ -237,16 +237,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="MenuReportedePedidos.Designer.vb">
-      <DependentUpon>MenuReportedePedidos.vb</DependentUpon>
+    <Compile Include="RegistroProveedores.Designer.vb">
+      <DependentUpon>RegistroProveedores.vb</DependentUpon>
     </Compile>
-    <Compile Include="MenuReportedePedidos.vb">
+    <Compile Include="RegistroProveedores.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuRegistroProveedores.Designer.vb">
-      <DependentUpon>MenuRegistroProveedores.vb</DependentUpon>
+    <Compile Include="ReportePedidos.Designer.vb">
+      <DependentUpon>ReportePedidos.vb</DependentUpon>
     </Compile>
-    <Compile Include="MenuRegistroProveedores.vb">
+    <Compile Include="ReportePedidos.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -279,11 +279,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuReportedePedidos.resx">
-      <DependentUpon>MenuReportedePedidos.vb</DependentUpon>
+    <EmbeddedResource Include="RegistroProveedores.resx">
+      <DependentUpon>RegistroProveedores.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuRegistroProveedores.resx">
-      <DependentUpon>MenuRegistroProveedores.vb</DependentUpon>
+    <EmbeddedResource Include="ReportePedidos.resx">
+      <DependentUpon>ReportePedidos.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
