@@ -85,3 +85,19 @@ D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuVentas.resources
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuInventario.resources
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuPersonas.resources
 D:\Proyecto1\POO\ProyectoPOO\obj\Debug\ProyectoPOO.MenuProveedores.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.vbproj.AssemblyReference.cache
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.vbproj.SuggestedBindingRedirects.cache
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.Form1.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.login.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.MenuFactura.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.MenuInventario.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.MenuPersonas.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.MenuProveedores.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.MenuVentas.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.Resources.resources
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.vbproj.GenerateResource.cache
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.exe.licenses
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.vbproj.CoreCompileInputs.cache
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.exe
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.xml
+D:\Descargas\Cursos\Sem 4\Taller de Programacion Orientada a Objetos\Proyecto\Repositorio Github\ProyectoTP\ProyectoPOO\obj\Debug\ProyectoPOO.pdb

@@ -237,6 +237,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MenuReportedePedidos.Designer.vb">
+      <DependentUpon>MenuReportedePedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuReportedePedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuRegistroProveedores.Designer.vb">
+      <DependentUpon>MenuRegistroProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuRegistroProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -266,6 +278,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuReportedePedidos.resx">
+      <DependentUpon>MenuReportedePedidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuRegistroProveedores.resx">
+      <DependentUpon>MenuRegistroProveedores.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

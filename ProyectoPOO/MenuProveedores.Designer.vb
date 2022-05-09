@@ -105,7 +105,7 @@ Partial Class MenuProveedores
         Me.BunifuButton4.DisabledFillColor = System.Drawing.Color.Empty
         Me.BunifuButton4.DisabledForecolor = System.Drawing.Color.Empty
         Me.BunifuButton4.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton4.Font = New System.Drawing.Font("Franklin Gothic Book", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuButton4.ForeColor = System.Drawing.Color.White
         Me.BunifuButton4.IconLeft = CType(resources.GetObject("BunifuButton4.IconLeft"), System.Drawing.Image)
         Me.BunifuButton4.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -197,7 +197,7 @@ Partial Class MenuProveedores
         Me.BunifuButton3.DisabledFillColor = System.Drawing.Color.Empty
         Me.BunifuButton3.DisabledForecolor = System.Drawing.Color.Empty
         Me.BunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.BunifuButton3.Font = New System.Drawing.Font("Franklin Gothic Book", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuButton3.ForeColor = System.Drawing.Color.White
         Me.BunifuButton3.IconLeft = CType(resources.GetObject("BunifuButton3.IconLeft"), System.Drawing.Image)
         Me.BunifuButton3.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -289,7 +289,7 @@ Partial Class MenuProveedores
         Me.BunifuButton1.DisabledFillColor = System.Drawing.Color.Empty
         Me.BunifuButton1.DisabledForecolor = System.Drawing.Color.Empty
         Me.BunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.BunifuButton1.Font = New System.Drawing.Font("Franklin Gothic Book", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuButton1.ForeColor = System.Drawing.Color.White
         Me.BunifuButton1.IconLeft = CType(resources.GetObject("BunifuButton1.IconLeft"), System.Drawing.Image)
         Me.BunifuButton1.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -381,7 +381,7 @@ Partial Class MenuProveedores
         Me.BunifuButton2.DisabledFillColor = System.Drawing.Color.Empty
         Me.BunifuButton2.DisabledForecolor = System.Drawing.Color.Empty
         Me.BunifuButton2.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Idle
-        Me.BunifuButton2.Font = New System.Drawing.Font("Franklin Gothic Book", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuButton2.ForeColor = System.Drawing.Color.White
         Me.BunifuButton2.IconLeft = CType(resources.GetObject("BunifuButton2.IconLeft"), System.Drawing.Image)
         Me.BunifuButton2.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -525,14 +525,14 @@ Partial Class MenuProveedores
         Me.BunifuLabel1.AutoSize = False
         Me.BunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default
         Me.BunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel1.Font = New System.Drawing.Font("Franklin Gothic Book", 20.25!)
+        Me.BunifuLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!)
         Me.BunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(40, Byte), Integer))
-        Me.BunifuLabel1.Location = New System.Drawing.Point(14, 191)
+        Me.BunifuLabel1.Location = New System.Drawing.Point(14, 178)
         Me.BunifuLabel1.Name = "BunifuLabel1"
         Me.BunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel1.Size = New System.Drawing.Size(146, 67)
+        Me.BunifuLabel1.Size = New System.Drawing.Size(146, 103)
         Me.BunifuLabel1.TabIndex = 5
-        Me.BunifuLabel1.Text = "Registro " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Empleados"
+        Me.BunifuLabel1.Text = "Reporte de Pedidos"
         Me.BunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
@@ -559,7 +559,7 @@ Partial Class MenuProveedores
         Me.BunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuIconButton1.Image = CType(resources.GetObject("BunifuIconButton1.Image"), System.Drawing.Image)
         Me.BunifuIconButton1.ImageMargin = New System.Windows.Forms.Padding(0)
-        Me.BunifuIconButton1.Location = New System.Drawing.Point(3, 3)
+        Me.BunifuIconButton1.Location = New System.Drawing.Point(0, 3)
         Me.BunifuIconButton1.Name = "BunifuIconButton1"
         Me.BunifuIconButton1.RoundBorders = True
         Me.BunifuIconButton1.ShowBorders = True
@@ -590,14 +590,14 @@ Partial Class MenuProveedores
         Me.BunifuLabel3.AutoEllipsis = False
         Me.BunifuLabel3.AutoSize = False
         Me.BunifuLabel3.CursorType = Nothing
-        Me.BunifuLabel3.Font = New System.Drawing.Font("Franklin Gothic Book", 20.25!)
+        Me.BunifuLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!)
         Me.BunifuLabel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(40, Byte), Integer))
-        Me.BunifuLabel3.Location = New System.Drawing.Point(13, 191)
+        Me.BunifuLabel3.Location = New System.Drawing.Point(10, 188)
         Me.BunifuLabel3.Name = "BunifuLabel3"
         Me.BunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel3.Size = New System.Drawing.Size(146, 67)
+        Me.BunifuLabel3.Size = New System.Drawing.Size(162, 93)
         Me.BunifuLabel3.TabIndex = 6
-        Me.BunifuLabel3.Text = "Registro" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Clientes" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.BunifuLabel3.Text = "Registro" & Global.Microsoft.VisualBasic.ChrW(13) & " de Proveedores"
         Me.BunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         Me.BunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
@@ -624,7 +624,7 @@ Partial Class MenuProveedores
         Me.BunifuIconButton5.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuIconButton5.Image = CType(resources.GetObject("BunifuIconButton5.Image"), System.Drawing.Image)
         Me.BunifuIconButton5.ImageMargin = New System.Windows.Forms.Padding(0)
-        Me.BunifuIconButton5.Location = New System.Drawing.Point(3, 3)
+        Me.BunifuIconButton5.Location = New System.Drawing.Point(0, 3)
         Me.BunifuIconButton5.Name = "BunifuIconButton5"
         Me.BunifuIconButton5.RoundBorders = True
         Me.BunifuIconButton5.ShowBorders = True
