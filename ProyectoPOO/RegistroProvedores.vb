@@ -14,4 +14,8 @@
     Private Sub AgregarButtonRegistroProveedores_Click(sender As Object, e As EventArgs) Handles AgregarButtonRegistroProveedores.Click
 
     End Sub
+
+    Private Sub BunifuLabel1_Click(sender As Object, e As EventArgs) Handles BunifuLabel1.Click
+
+    End Sub
 End Class
