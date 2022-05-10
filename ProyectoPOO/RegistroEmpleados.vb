@@ -1,4 +1,4 @@
-﻿Public Class MenuInventario
+﻿Public Class RegistroEmpleados
     Private Sub BunifuPictureBox1_Click(sender As Object, e As EventArgs) Handles BunifuPictureBox1.Click
         Me.Close()
         login.Close()
@@ -7,8 +7,7 @@
     Private Sub BunifuPictureBox3_Click(sender As Object, e As EventArgs) Handles BunifuPictureBox3.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
-
-    Private Sub MenuVentas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 
@@ -17,8 +16,8 @@
         Me.Hide()
     End Sub
 
-    Private Sub BunifuButton2_Click(sender As Object, e As EventArgs) Handles BunifuButton2.Click
-        MenuPersonas.Show()
+    Private Sub BunifuButton5_Click(sender As Object, e As EventArgs) Handles BunifuButton5.Click
+        MenuInventario.Show()
         Me.Hide()
     End Sub
 
@@ -27,7 +26,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub BunifuIconButton2_Click(sender As Object, e As EventArgs) Handles BunifuIconButton2.Click
-
+    Private Sub BunifuButton4_Click(sender As Object, e As EventArgs) Handles BunifuButton4.Click
+        MenuInventario.Show()
     End Sub
 End Class

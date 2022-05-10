@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class RegistroProveedores
+Partial Class RegistroProvedores
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -29,7 +29,7 @@ Partial Class RegistroProveedores
         Dim BorderEdges7 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim BorderEdges3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim BorderEdges2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RegistroProveedores))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RegistroProvedores))
         Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Me.RegistroProveedoresElipse = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuPictureBox3 = New Bunifu.UI.WinForms.BunifuPictureBox()
@@ -529,9 +529,9 @@ Partial Class RegistroProveedores
         Me.BunifuLabel2.Location = New System.Drawing.Point(217, 68)
         Me.BunifuLabel2.Name = "BunifuLabel2"
         Me.BunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel2.Size = New System.Drawing.Size(108, 22)
+        Me.BunifuLabel2.Size = New System.Drawing.Size(99, 22)
         Me.BunifuLabel2.TabIndex = 5
-        Me.BunifuLabel2.Text = "ID Proveedor"
+        Me.BunifuLabel2.Text = "ID Provedor"
         Me.BunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
@@ -915,7 +915,7 @@ Partial Class RegistroProveedores
         Me.ProductoServicioTextBox.Size = New System.Drawing.Size(200, 26)
         Me.ProductoServicioTextBox.TabIndex = 21
         '
-        'RegistroProveedores
+        'RegistroProvedores
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -938,7 +938,7 @@ Partial Class RegistroProveedores
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.RegistroProveedoresPanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "RegistroProveedores"
+        Me.Name = "RegistroProvedores"
         Me.Text = "RegistroProveedores"
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
