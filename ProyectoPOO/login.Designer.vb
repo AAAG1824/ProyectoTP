@@ -23,7 +23,7 @@ Partial Class login
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim BorderEdges3 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges1 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login))
         Me.BunifuElipse2 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -33,10 +33,16 @@ Partial Class login
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.BunifuPictureBox3 = New Bunifu.UI.WinForms.BunifuPictureBox()
         Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.MobicenDataSet = New ProyectoPOO.mobicenDataSet()
+        Me.EmpleadosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.EmpleadosTableAdapter = New ProyectoPOO.mobicenDataSetTableAdapters.empleadosTableAdapter()
+        Me.TableAdapterManager = New ProyectoPOO.mobicenDataSetTableAdapters.TableAdapterManager()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MobicenDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmpleadosBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BunifuElipse2
@@ -73,11 +79,11 @@ Partial Class login
         Me.BunifuButton2.ColorContrastOnClick = 45
         Me.BunifuButton2.ColorContrastOnHover = 45
         Me.BunifuButton2.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges3.BottomLeft = False
-        BorderEdges3.BottomRight = False
-        BorderEdges3.TopLeft = False
-        BorderEdges3.TopRight = False
-        Me.BunifuButton2.CustomizableEdges = BorderEdges3
+        BorderEdges1.BottomLeft = False
+        BorderEdges1.BottomRight = False
+        BorderEdges1.TopLeft = False
+        BorderEdges1.TopRight = False
+        Me.BunifuButton2.CustomizableEdges = BorderEdges1
         Me.BunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None
         Me.BunifuButton2.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.BunifuButton2.DisabledFillColor = System.Drawing.Color.Empty
@@ -249,12 +255,38 @@ Partial Class login
         Me.BunifuPictureBox1.TabStop = False
         Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle
         '
+        'MobicenDataSet
+        '
+        Me.MobicenDataSet.DataSetName = "mobicenDataSet"
+        Me.MobicenDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'EmpleadosBindingSource
+        '
+        Me.EmpleadosBindingSource.DataMember = "empleados"
+        Me.EmpleadosBindingSource.DataSource = Me.MobicenDataSet
+        '
+        'EmpleadosTableAdapter
+        '
+        Me.EmpleadosTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.clientesTableAdapter = Nothing
+        Me.TableAdapterManager.empleadosTableAdapter = Me.EmpleadosTableAdapter
+        Me.TableAdapterManager.facturaTableAdapter = Nothing
+        Me.TableAdapterManager.inventarioTableAdapter = Nothing
+        Me.TableAdapterManager.proovedoresTableAdapter = Nothing
+        Me.TableAdapterManager.reporte_pedidosTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = ProyectoPOO.mobicenDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        Me.TableAdapterManager.ventasTableAdapter = Nothing
+        '
         'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(40, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 572)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.BunifuCheckBox1)
         Me.Controls.Add(Me.TextBox1)
@@ -269,6 +301,8 @@ Partial Class login
         Me.Panel2.ResumeLayout(False)
         CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MobicenDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmpleadosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -282,4 +316,8 @@ Partial Class login
     Friend WithEvents Panel2 As Panel
     Friend WithEvents BunifuPictureBox3 As Bunifu.UI.WinForms.BunifuPictureBox
     Friend WithEvents BunifuPictureBox1 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents EmpleadosBindingSource As BindingSource
+    Friend WithEvents MobicenDataSet As mobicenDataSet
+    Friend WithEvents EmpleadosTableAdapter As mobicenDataSetTableAdapters.empleadosTableAdapter
+    Friend WithEvents TableAdapterManager As mobicenDataSetTableAdapters.TableAdapterManager
 End Class

@@ -230,6 +230,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>mobicenDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="mobicenDataSet.vb">
+      <DependentUpon>mobicenDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
