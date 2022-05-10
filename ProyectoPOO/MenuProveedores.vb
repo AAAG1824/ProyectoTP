@@ -43,17 +43,17 @@
     End Sub
 
     Private Sub BunifuIconButton5_Click(sender As Object, e As EventArgs) Handles BunifuIconButton5.Click
-        RegistroProveedores.Show()
+        RegistroProvedores.Show()
         Me.Hide()
     End Sub
 
     Private Sub BunifuLabel3_Click(sender As Object, e As EventArgs) Handles BunifuLabel3.Click
-        RegistroProveedores.Show()
+        RegistroProvedores.Show()
         Me.Hide()
     End Sub
 
     Private Sub BunifuPanel4_Click(sender As Object, e As EventArgs) Handles BunifuPanel4.Click
-        RegistroProveedores.Show()
+        RegistroProvedores.Show()
         Me.hide()
     End Sub
 End Class

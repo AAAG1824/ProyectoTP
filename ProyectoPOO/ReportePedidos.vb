@@ -7,7 +7,7 @@
 
     End Sub
 
-    Private Sub BunifuLabel14_Click(sender As Object, e As EventArgs) Handles BunifuLabel14.Click
+    Private Sub BunifuLabel14_Click(sender As Object, e As EventArgs) 
 
     End Sub
 
