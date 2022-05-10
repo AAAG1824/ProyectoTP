@@ -26,4 +26,19 @@
         MenuInventario.Show()
         Me.Hide()
     End Sub
+
+    Private Sub BunifuIconButton2_Click(sender As Object, e As EventArgs) Handles BunifuIconButton2.Click
+        ReporteVentas.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub BunifuLabel2_Click(sender As Object, e As EventArgs) Handles BunifuLabel2.Click
+        ReporteVentas.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub BunifuPanel2_Click(sender As Object, e As EventArgs) Handles BunifuPanel2.Click
+        ReporteVentas.Show()
+        Me.Hide()
+    End Sub
 End Class
