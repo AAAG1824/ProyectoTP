@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub BunifuButton5_Click(sender As Object, e As EventArgs) Handles BunifuButton5.Click
-        MenuInventario.Show()
+        MenuPersonas.Show()
         Me.Hide()
     End Sub
 

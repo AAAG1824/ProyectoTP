@@ -46,8 +46,6 @@ Partial Class RegistroEmpleados
         Me.BunifuButton2 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton6 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuButton8 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
-        Me.BunifuLabel3 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.IDProveedorTextBox = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.BunifuLabel2 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel4 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -807,30 +805,6 @@ Partial Class RegistroEmpleados
         Me.BunifuButton8.TextPadding = New System.Windows.Forms.Padding(0)
         Me.BunifuButton8.UseDefaultRadiusAndThickness = True
         '
-        'BunifuLabel3
-        '
-        Me.BunifuLabel3.AllowParentOverrides = False
-        Me.BunifuLabel3.AutoEllipsis = False
-        Me.BunifuLabel3.CursorType = Nothing
-        Me.BunifuLabel3.Font = New System.Drawing.Font("Times New Roman", 15.0!)
-        Me.BunifuLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BunifuLabel3.Location = New System.Drawing.Point(215, 99)
-        Me.BunifuLabel3.Name = "BunifuLabel3"
-        Me.BunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel3.Size = New System.Drawing.Size(105, 22)
-        Me.BunifuLabel3.TabIndex = 37
-        Me.BunifuLabel3.Text = "ID Empleado"
-        Me.BunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'IDProveedorTextBox
-        '
-        Me.IDProveedorTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IDProveedorTextBox.Location = New System.Drawing.Point(215, 127)
-        Me.IDProveedorTextBox.Name = "IDProveedorTextBox"
-        Me.IDProveedorTextBox.Size = New System.Drawing.Size(121, 26)
-        Me.IDProveedorTextBox.TabIndex = 38
-        '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -982,7 +956,7 @@ Partial Class RegistroEmpleados
         Me.BunifuLabel9.CursorType = Nothing
         Me.BunifuLabel9.Font = New System.Drawing.Font("Times New Roman", 15.0!)
         Me.BunifuLabel9.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BunifuLabel9.Location = New System.Drawing.Point(215, 167)
+        Me.BunifuLabel9.Location = New System.Drawing.Point(206, 103)
         Me.BunifuLabel9.Name = "BunifuLabel9"
         Me.BunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.BunifuLabel9.Size = New System.Drawing.Size(89, 22)
@@ -994,7 +968,7 @@ Partial Class RegistroEmpleados
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(206, 195)
+        Me.TextBox7.Location = New System.Drawing.Point(206, 131)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(160, 26)
         Me.TextBox7.TabIndex = 53
@@ -1019,8 +993,6 @@ Partial Class RegistroEmpleados
         Me.Controls.Add(Me.BunifuLabel4)
         Me.Controls.Add(Me.BunifuLabel2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.IDProveedorTextBox)
-        Me.Controls.Add(Me.BunifuLabel3)
         Me.Controls.Add(Me.BunifuButton8)
         Me.Controls.Add(Me.BunifuButton6)
         Me.Controls.Add(Me.BunifuButton2)
@@ -1057,7 +1029,6 @@ Partial Class RegistroEmpleados
     Friend WithEvents BunifuButton2 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuButton6 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents BunifuButton8 As Bunifu.UI.WinForms.BunifuButton.BunifuButton
-    Friend WithEvents BunifuLabel3 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents TextBox7 As TextBox
     Friend WithEvents BunifuLabel9 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuLabel8 As Bunifu.UI.WinForms.BunifuLabel
@@ -1072,5 +1043,4 @@ Partial Class RegistroEmpleados
     Friend WithEvents BunifuLabel4 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BunifuLabel2 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents IDProveedorTextBox As TextBox
 End Class

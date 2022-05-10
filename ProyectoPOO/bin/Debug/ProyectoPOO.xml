@@ -22,5 +22,190 @@ ProyectoPOO
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.clientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.empleadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.facturaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.inventarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.proveedoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.reporte_pedidosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.ventasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.clientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.empleadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.facturaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.inventarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.proveedoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.reporte_pedidosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.ventasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.clientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.empleadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.facturaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.inventarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.proveedoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.reporte_pedidosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSet.ventasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.clientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.empleadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.facturaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.inventarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.proveedoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.reporte_pedidosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.ventasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoPOO.proyectomobicenDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoPOO.proyectomobicenDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoPOO.proyectomobicenDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.UpdateAll(ProyectoPOO.proyectomobicenDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ProyectoPOO.proyectomobicenDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
