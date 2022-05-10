@@ -62,10 +62,10 @@ Partial Class ReportePedidos
         Me.BunifuLabel11 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.BunifuPanel1 = New Bunifu.UI.WinForms.BunifuPanel()
-        Me.BunifuLabel12 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel13 = New Bunifu.UI.WinForms.BunifuLabel()
-        Me.BunifuLabel14 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel15 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel14 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel13 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel12 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.BunifuLabel16 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuLabel17 = New Bunifu.UI.WinForms.BunifuLabel()
@@ -524,6 +524,7 @@ Partial Class ReportePedidos
         '
         Me.BunifuLabel1.AllowParentOverrides = False
         Me.BunifuLabel1.AutoEllipsis = False
+        Me.BunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default
         Me.BunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default
         Me.BunifuLabel1.Font = New System.Drawing.Font("Segoe Print", 26.25!)
         Me.BunifuLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight
@@ -1007,7 +1008,7 @@ Partial Class ReportePedidos
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.03704!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.96296!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 49.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 54.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 55.0!))
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(216, 276)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 5
@@ -1038,37 +1039,21 @@ Partial Class ReportePedidos
         Me.BunifuPanel1.Size = New System.Drawing.Size(374, 29)
         Me.BunifuPanel1.TabIndex = 0
         '
-        'BunifuLabel12
+        'BunifuLabel15
         '
-        Me.BunifuLabel12.AllowParentOverrides = False
-        Me.BunifuLabel12.AutoEllipsis = False
-        Me.BunifuLabel12.CursorType = Nothing
-        Me.BunifuLabel12.Font = New System.Drawing.Font("Times New Roman", 15.0!)
-        Me.BunifuLabel12.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BunifuLabel12.Location = New System.Drawing.Point(3, 4)
-        Me.BunifuLabel12.Name = "BunifuLabel12"
-        Me.BunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel12.Size = New System.Drawing.Size(41, 22)
-        Me.BunifuLabel12.TabIndex = 29
-        Me.BunifuLabel12.Text = "Cant."
-        Me.BunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
-        '
-        'BunifuLabel13
-        '
-        Me.BunifuLabel13.AllowParentOverrides = False
-        Me.BunifuLabel13.AutoEllipsis = False
-        Me.BunifuLabel13.CursorType = Nothing
-        Me.BunifuLabel13.Font = New System.Drawing.Font("Times New Roman", 15.0!)
-        Me.BunifuLabel13.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BunifuLabel13.Location = New System.Drawing.Point(128, 4)
-        Me.BunifuLabel13.Name = "BunifuLabel13"
-        Me.BunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel13.Size = New System.Drawing.Size(71, 22)
-        Me.BunifuLabel13.TabIndex = 30
-        Me.BunifuLabel13.Text = "Producto"
-        Me.BunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.BunifuLabel15.AllowParentOverrides = False
+        Me.BunifuLabel15.AutoEllipsis = False
+        Me.BunifuLabel15.CursorType = Nothing
+        Me.BunifuLabel15.Font = New System.Drawing.Font("Times New Roman", 15.0!)
+        Me.BunifuLabel15.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BunifuLabel15.Location = New System.Drawing.Point(317, 4)
+        Me.BunifuLabel15.Name = "BunifuLabel15"
+        Me.BunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel15.Size = New System.Drawing.Size(42, 22)
+        Me.BunifuLabel15.TabIndex = 32
+        Me.BunifuLabel15.Text = "Total"
+        Me.BunifuLabel15.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel15.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'BunifuLabel14
         '
@@ -1086,21 +1071,37 @@ Partial Class ReportePedidos
         Me.BunifuLabel14.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel14.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
-        'BunifuLabel15
+        'BunifuLabel13
         '
-        Me.BunifuLabel15.AllowParentOverrides = False
-        Me.BunifuLabel15.AutoEllipsis = False
-        Me.BunifuLabel15.CursorType = Nothing
-        Me.BunifuLabel15.Font = New System.Drawing.Font("Times New Roman", 15.0!)
-        Me.BunifuLabel15.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BunifuLabel15.Location = New System.Drawing.Point(317, 4)
-        Me.BunifuLabel15.Name = "BunifuLabel15"
-        Me.BunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel15.Size = New System.Drawing.Size(42, 22)
-        Me.BunifuLabel15.TabIndex = 32
-        Me.BunifuLabel15.Text = "Total"
-        Me.BunifuLabel15.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel15.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.BunifuLabel13.AllowParentOverrides = False
+        Me.BunifuLabel13.AutoEllipsis = False
+        Me.BunifuLabel13.CursorType = Nothing
+        Me.BunifuLabel13.Font = New System.Drawing.Font("Times New Roman", 15.0!)
+        Me.BunifuLabel13.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BunifuLabel13.Location = New System.Drawing.Point(128, 4)
+        Me.BunifuLabel13.Name = "BunifuLabel13"
+        Me.BunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel13.Size = New System.Drawing.Size(71, 22)
+        Me.BunifuLabel13.TabIndex = 30
+        Me.BunifuLabel13.Text = "Producto"
+        Me.BunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel12
+        '
+        Me.BunifuLabel12.AllowParentOverrides = False
+        Me.BunifuLabel12.AutoEllipsis = False
+        Me.BunifuLabel12.CursorType = Nothing
+        Me.BunifuLabel12.Font = New System.Drawing.Font("Times New Roman", 15.0!)
+        Me.BunifuLabel12.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BunifuLabel12.Location = New System.Drawing.Point(3, 4)
+        Me.BunifuLabel12.Name = "BunifuLabel12"
+        Me.BunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel12.Size = New System.Drawing.Size(41, 22)
+        Me.BunifuLabel12.TabIndex = 29
+        Me.BunifuLabel12.Text = "Cant."
+        Me.BunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
         'TableLayoutPanel2
         '
@@ -1254,7 +1255,7 @@ Partial Class ReportePedidos
         Me.GenerarPDFButton.OnIdleState.BorderThickness = 1
         Me.GenerarPDFButton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(CType(CType(225, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(215, Byte), Integer))
         Me.GenerarPDFButton.OnIdleState.ForeColor = System.Drawing.Color.White
-        Me.GenerarPDFButton.OnIdleState.IconLeftImage = CType(resources.GetObject("BunifuButton5.OnIdleState.IconLeftImage"), System.Drawing.Image)
+        Me.GenerarPDFButton.OnIdleState.IconLeftImage = CType(resources.GetObject("GenerarPDFButton.OnIdleState.IconLeftImage"), System.Drawing.Image)
         Me.GenerarPDFButton.OnIdleState.IconRightImage = Nothing
         Me.GenerarPDFButton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
         Me.GenerarPDFButton.OnPressedState.BorderRadius = 1
