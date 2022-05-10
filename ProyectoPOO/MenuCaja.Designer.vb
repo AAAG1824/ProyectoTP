@@ -53,6 +53,8 @@ Partial Class MenuCaja
         Me.GenerarPDFButton = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.BunifuLabel4 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -933,7 +935,7 @@ Partial Class MenuCaja
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(551, 119)
+        Me.ComboBox1.Location = New System.Drawing.Point(617, 119)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 37
@@ -945,7 +947,7 @@ Partial Class MenuCaja
         Me.BunifuLabel4.CursorType = Nothing
         Me.BunifuLabel4.Font = New System.Drawing.Font("Times New Roman", 15.0!)
         Me.BunifuLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BunifuLabel4.Location = New System.Drawing.Point(551, 91)
+        Me.BunifuLabel4.Location = New System.Drawing.Point(610, 91)
         Me.BunifuLabel4.Name = "BunifuLabel4"
         Me.BunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.BunifuLabel4.Size = New System.Drawing.Size(128, 22)
@@ -954,12 +956,38 @@ Partial Class MenuCaja
         Me.BunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft
         Me.BunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
         '
+        'BunifuLabel5
+        '
+        Me.BunifuLabel5.AllowParentOverrides = False
+        Me.BunifuLabel5.AutoEllipsis = False
+        Me.BunifuLabel5.CursorType = Nothing
+        Me.BunifuLabel5.Font = New System.Drawing.Font("Times New Roman", 15.0!)
+        Me.BunifuLabel5.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BunifuLabel5.Location = New System.Drawing.Point(456, 91)
+        Me.BunifuLabel5.Name = "BunifuLabel5"
+        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel5.Size = New System.Drawing.Size(87, 22)
+        Me.BunifuLabel5.TabIndex = 40
+        Me.BunifuLabel5.Text = "Id Articulo"
+        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(445, 124)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox2.TabIndex = 41
+        '
         'MenuCaja
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(750, 469)
+        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.BunifuLabel5)
         Me.Controls.Add(Me.BunifuLabel4)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.GenerarPDFButton)
@@ -1008,4 +1036,6 @@ Partial Class MenuCaja
     Friend WithEvents BunifuLabel4 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents GenerarPDFButton As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents BunifuLabel5 As Bunifu.UI.WinForms.BunifuLabel
 End Class
