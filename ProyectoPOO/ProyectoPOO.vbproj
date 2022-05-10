@@ -249,10 +249,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="RegistroProveedores.Designer.vb">
-      <DependentUpon>RegistroProveedores.vb</DependentUpon>
+    <Compile Include="RegistroInventarios.Designer.vb">
+      <DependentUpon>RegistroInventarios.vb</DependentUpon>
     </Compile>
-    <Compile Include="RegistroProveedores.vb">
+    <Compile Include="RegistroInventarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroEmpleados.Designer.vb">
+      <DependentUpon>RegistroEmpleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroEmpleados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroProvedores.Designer.vb">
+      <DependentUpon>RegistroProvedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroProvedores.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ReportePedidos.Designer.vb">
@@ -288,8 +300,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistroProveedores.resx">
-      <DependentUpon>RegistroProveedores.vb</DependentUpon>
+    <EmbeddedResource Include="RegistroInventarios.resx">
+      <DependentUpon>RegistroInventarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroEmpleados.resx">
+      <DependentUpon>RegistroEmpleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroProvedores.resx">
+      <DependentUpon>RegistroProvedores.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportePedidos.resx">
       <DependentUpon>ReportePedidos.vb</DependentUpon>
