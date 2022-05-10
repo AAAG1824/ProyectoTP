@@ -1,4 +1,4 @@
-﻿Public Class RegistroEmpleados
+﻿Public Class BusquedaCliente
     Private Sub BunifuPictureBox1_Click(sender As Object, e As EventArgs) Handles BunifuPictureBox1.Click
         Me.Close()
         login.Close()
@@ -28,14 +28,5 @@
 
     Private Sub BunifuButton4_Click(sender As Object, e As EventArgs) Handles BunifuButton4.Click
         MenuInventario.Show()
-    End Sub
-
-    Private Sub BunifuButton8_Click(sender As Object, e As EventArgs) Handles BunifuButton8.Click
-        BuscarEmpleado.Show()
-        Me.Hide()
-    End Sub
-
-    Private Sub BunifuLabel7_Click(sender As Object, e As EventArgs) Handles BunifuLabel7.Click
-
     End Sub
 End Class
