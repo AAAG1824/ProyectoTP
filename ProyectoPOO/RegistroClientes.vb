@@ -1,4 +1,4 @@
-﻿Public Class RegistroClientes1
+﻿Public Class RegistroClientes
     Private Sub BunifuPictureBox1_Click(sender As Object, e As EventArgs) Handles BunifuPictureBox1.Click
         Me.Close()
         login.Close()
@@ -28,5 +28,13 @@
 
     Private Sub BunifuButton4_Click(sender As Object, e As EventArgs) Handles BunifuButton4.Click
         MenuInventario.Show()
+    End Sub
+
+    Private Sub BunifuLabel1_Click(sender As Object, e As EventArgs) Handles BunifuLabel1.Click
+
+    End Sub
+
+    Private Sub BunifuLabel2_Click(sender As Object, e As EventArgs) Handles BunifuLabel2.Click
+
     End Sub
 End Class
