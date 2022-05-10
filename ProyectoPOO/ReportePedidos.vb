@@ -3,9 +3,6 @@
 
     End Sub
 
-    Private Sub ReportePedidos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 
     Private Sub ReportePedidos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 

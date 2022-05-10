@@ -203,3 +203,6 @@ D:\ProyectoTP\ProyectoPOO\ProyectoPOO\bin\Debug\Bunifu.UI.WinForms.BunifuTransit
 D:\ProyectoTP\ProyectoPOO\ProyectoPOO\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 D:\ProyectoTP\ProyectoPOO\ProyectoPOO\bin\Debug\MySql.Data.xml
 D:\ProyectoTP\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.vbproj.CopyComplete
+D:\ProyectoTP\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.RegistroInventarios.resources
+D:\ProyectoTP\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.RegistroEmpleados.resources
+D:\ProyectoTP\ProyectoPOO\ProyectoPOO\obj\Debug\ProyectoPOO.RegistroProvedores.resources
