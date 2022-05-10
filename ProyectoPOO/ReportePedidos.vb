@@ -10,4 +10,8 @@
     Private Sub BunifuLabel14_Click(sender As Object, e As EventArgs) Handles BunifuLabel14.Click
 
     End Sub
+
+    Private Sub ReportePedidos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

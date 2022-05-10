@@ -14,16 +14,16 @@
 
     Private Sub BunifuButton1_Click(sender As Object, e As EventArgs) Handles BunifuButton1.Click
         MenuVentas.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub BunifuButton2_Click(sender As Object, e As EventArgs) Handles BunifuButton2.Click
         MenuPersonas.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub BunifuButton3_Click(sender As Object, e As EventArgs) Handles BunifuButton3.Click
         MenuProveedores.Show()
-        Me.Close()
+        Me.Hide()
     End Sub
 End Class
