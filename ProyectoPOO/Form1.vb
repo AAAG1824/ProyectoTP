@@ -28,5 +28,6 @@
 
     Private Sub BunifuButton4_Click(sender As Object, e As EventArgs) Handles BunifuButton4.Click
         MenuInventario.Show()
+        Hide()
     End Sub
 End Class

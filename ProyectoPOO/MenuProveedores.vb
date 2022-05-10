@@ -54,6 +54,6 @@
 
     Private Sub BunifuPanel4_Click(sender As Object, e As EventArgs) Handles BunifuPanel4.Click
         RegistroProveedores.Show()
-        Me.hide()
+        Me.Hide()
     End Sub
 End Class

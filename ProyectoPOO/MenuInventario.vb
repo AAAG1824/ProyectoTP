@@ -26,8 +26,4 @@
         MenuProveedores.Show()
         Me.Hide()
     End Sub
-
-    Private Sub BunifuIconButton2_Click(sender As Object, e As EventArgs) Handles BunifuIconButton2.Click
-
-    End Sub
 End Class

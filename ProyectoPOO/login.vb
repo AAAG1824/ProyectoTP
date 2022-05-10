@@ -4,12 +4,14 @@ Public Class login
 
     Private Sub BunifuButton2_Click(sender As Object, e As EventArgs) Handles BunifuButton2.Click
 
-        Dim contraseña As String
-        contraseña = TextBox1.Text
-
-        If (contraseña = "Admin@777") Then
-            Form1.Show()
+        If Me.EmpleadosTableAdapter.BuscarUC(Me.MobicenDataSet.empleados, TextBox1.Text) Then
             Me.Hide()
+            Form1.Show()
+        ElseIf TextBox1.Text = "" Then
+            MsgBox("Por favor ingrese una clave")
+
+        Else
+            MsgBox("Clave no existente")
         End If
 
     End Sub
@@ -36,6 +38,17 @@ Public Class login
     End Sub
 
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: esta línea de código carga datos en la tabla 'MobicenDataSet.empleados' Puede moverla o quitarla según sea necesario.
+        Me.EmpleadosTableAdapter.Fill(Me.MobicenDataSet.empleados)
+        TextBox1.Text = ""
 
     End Sub
+
+    Private Sub EmpleadosBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs)
+        Me.Validate()
+        Me.EmpleadosBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.MobicenDataSet)
+
+    End Sub
+
 End Class
