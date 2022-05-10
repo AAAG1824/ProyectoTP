@@ -295,6 +295,12 @@
     <Compile Include="ReportePedidos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ReporteVentas.Designer.vb">
+      <DependentUpon>ReporteVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BuscarEmpleado.resx">
@@ -348,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportePedidos.resx">
       <DependentUpon>ReportePedidos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteVentas.resx">
+      <DependentUpon>ReporteVentas.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
